@@ -52,5 +52,5 @@ def get_average_age_for_season(data, season)
     binding.pry
     end
   end
-    return (total_age)
+    return (total_age/num_contestants)
 end

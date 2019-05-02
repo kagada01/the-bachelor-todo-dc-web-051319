@@ -43,8 +43,9 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
+  
   data.each do |season, contestants|
     
-  binding.pry
+  #binding.pry
   end
 end

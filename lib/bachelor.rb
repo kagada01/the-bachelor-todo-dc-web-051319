@@ -42,7 +42,7 @@ def get_occupation(data, hometown)
   end
 end
 
-=begin
+
 def get_average_age_for_season(data, season)
   age = 0
   num_contestants = 0
@@ -53,8 +53,8 @@ def get_average_age_for_season(data, season)
     #binding.pry
   end
 end
-=end
 
+=begin
 def get_average_age_for_season(data, season)
   age_total = 0
   num_of_contestants = 0
@@ -64,3 +64,4 @@ def get_average_age_for_season(data, season)
   end
   (age_total / num_of_contestants.to_f).round(0)
 end
+=end

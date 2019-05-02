@@ -49,7 +49,7 @@ def get_average_age_for_season(data, season)
   data[season].each do |contestant|
     
     age += contestant["age"].to_i
-    binding.pry
+    #binding.pry
     num_contestants += 1
     return (age/num_contestants.to_f).round(0)
     
